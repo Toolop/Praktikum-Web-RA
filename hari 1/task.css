@@ -1,0 +1,259 @@
+body{
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    max-width: 1366px;
+    background-color: #FEE3C3;
+}
+.main-wrapper{
+    background-color:#FFF6EC ;
+}
+@media(min-width : 1367px){
+    .main-wrapper{
+        margin-top: 50px;
+        border-radius: 50px;
+    }
+}
+header{
+    margin-top: 0;
+    display: flex;
+}
+header h1{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.navbar{
+    margin-left: auto;
+    margin-right: 100px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.navbar-isi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.navbar-isi ul{
+    display: flex;
+    
+}
+.fotoprofil{
+    background-color: black;
+    width: 60px;
+    margin-top: 10px;
+    height: 60px;
+    border-radius: 10px;
+}
+article{
+    width: 100%;
+    display: flex;
+}
+.topartist{
+    background-color: white;
+    width: 20%;
+    margin-right: 5%;
+    height: 870px;
+    border-radius: 30px;
+}
+.popular{
+    background-color: #FFEEDB;
+    width: 20%;
+    margin-left: 5%;
+    height: 750px;
+    border-radius: 30px;
+}
+
+.main-artikel{
+    width: 50%;
+}
+.main-artikel-section-profil{
+    display: flex;
+}
+.keterangan{
+    margin-left: 20px;
+}
+.keterangan1{
+    margin-top: -5px;
+}
+.main-artikel-section{
+    padding: 5px 20px;
+    background-color: white;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    box-shadow: rgba(253, 175, 94, 0.2) 0px 7px 29px 0px;
+
+}
+.topartist-judul{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topartist-judul p{
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.topartist-list{
+   margin-left: 30px;
+   margin-right: 40px;
+}
+.topartist-list-section{
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.topartist-list-section.satu{
+    box-shadow: rgba(253, 175, 94, 0.5) 0px 7px 29px 0px;
+}
+.topartist-list-section-keterangan p{
+    height: 6px;
+    font-size: 14px;
+    margin-top: 2px;
+}
+.topartist-list-section-keterangan{
+    margin-left: 20px;
+}
+.topartist-list-section-fotoprofil{
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.iklan{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    background-color: black;
+}
+.topartist-judul a{
+    color: #F1A14F;
+    font-weight: bold;
+}
+.username{
+    font-size: 18px;
+    font-weight: bold;
+}
+.tanggal{
+    margin-left: 10px;
+    font-size: 13px;
+    color: grey;
+    font-weight: normal;
+}
+.keterangan2{
+    margin-top: -10px;
+    display: flex;
+}
+.tag{
+    position: relative;
+    background-color: #FDAF5E;
+    width: 100px;
+    border-radius: 10px;
+    height: 25px;
+}
+.tag p{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 11px;
+    color: white;
+    font-weight: bold;
+}
+.popular-section{
+    position: relative;
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    background-color: grey;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 5px solid white;
+    box-shadow: rgba(253, 175, 94, 0.2) 0px 20px 29px 0px;
+}
+.popular-section img{
+    margin-top: 0px;
+}
+.penggambar p{
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.penggambar{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+}
+.bulat{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    margin-left: 10px;
+    background-color: black;
+}
+.bulat img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.topartist-juara{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.peringkat{
+    position: relative;
+    background-color: #FD9F7A;
+    width: 30px;
+    margin-right: 10px;
+    height: 30px;
+    border-radius: 100%;
+}
+.peringkat p{
+    position: absolute;
+    left: 50%;
+    color: white;
+    top: 0%;
+    transform: translate(-50%,-50%);
+}
+.gambaruser{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit:cover;
+}
+
+footer{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.main-artikel-section-gambar{
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: grey;
+    width: 100%;
+    height: 500px;
+}
