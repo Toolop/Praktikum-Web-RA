@@ -1,1 +1,2 @@
-# Isikan identitas dasar disini
+Nama : Rafi Arya Nugraha
+NIM  : 119140060
