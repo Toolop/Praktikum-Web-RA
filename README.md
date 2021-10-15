@@ -1,1 +1,2 @@
-# Isikan identitas dasar disini
+Rafi Arya Nugraha
+119140060

@@ -1,0 +1,185 @@
+body{
+    max-width: 1366px;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    padding: 5px;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 40px;
+}
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    padding: 5px;
+}
+
+/* header */
+header{
+    padding: 30px;
+    object-fit: cover;
+    object-position: bottom;
+    text-align: center;
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-left: 0px;
+}
+header img{
+    width: 70px;
+    margin-right: 20px;
+    height: 70px;
+}
+/* akhir header */
+
+/* navbar */
+nav{
+    margin-bottom: 50px;
+}
+nav li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+nav li a::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    display: block;
+    background-color: #6AC8E1;
+    margin-bottom: 10px;
+}
+nav li a:hover::after{
+    width: 100%;
+    transition: all .5s;
+}
+.line{
+    position: absolute;
+    width: 50px;
+    margin-left: 3px;
+    height: 3px;
+    background-color: #6AC8E1;
+}
+
+
+/* navbar */
+
+
+/* agar main bisa dikanan dan berita di kirir*/
+.sidebar{
+    display: flex;
+    margin-bottom: 150px;
+}
+.kiri{
+    width: 120%;
+    text-align: left;
+}
+.kanan{
+    width: 100%;
+}
+.kiri-text{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+/*sampai sini */
+
+/* main */
+main{
+    flex: 3;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.kanan h2{
+    transform: rotate(90deg);
+    margin-left: 250px;
+    margin-top: -200px;
+    white-space: nowrap;
+    position: absolute;
+}
+#profilgambar{
+    position: relative;
+    width: 400px;
+    overflow: hidden;
+    height: 470px;
+    left: -30px;
+}
+#profilgambar img{
+    left: -20px;
+    position: absolute;
+}
+#profilgambar .bg{
+    background:#6AC8E1;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top : 0;
+    transform: translate(19%,40%);
+    width: 310px;
+    height: 450px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+}
+/*main */
+
+/*article */
+article{
+    flex: 1;
+    background-color: #6AC8E1;
+    border-radius: 10px;
+}
+.berita {
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+}
+.berita:hover{
+    background-color: black;
+}
+article h2{
+ color: black;
+}
+.gambar{
+    width: 90px;
+    height: 70px;
+    border-radius: 10px;
+}
+.gambar img{
+    width:100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.text{
+    margin-left: 20px;
+    width: 200px;
+    text-align: left;
+}
+.text p{
+    color: white;
+}
+hr{
+    color: white;
+    width: 300px;
+}
+
+/*article */
+
+/*footer */
+footer{
+    padding: 20px 0;
+    font-weight: bold;
+    color: white;
+    background-color: #6AC8E1;
+}
